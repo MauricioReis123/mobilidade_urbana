@@ -1,0 +1,29 @@
+# pubspec.yaml
+name: mobilidade_urbana
+description: "Aplicativo de mobilidade urbana com Firebase e Mercado Pago"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Pacote oficial para chamadas HTTP (REST API do Firebase e Mercado Pago)
+  http: ^1.2.0
+
+  # Opcional: formatar datas, moedas e moeda brasileira (BRL)
+  intl: ^0.19.0
+
+  # Opcional: carregar variáveis do .env com segurança
+  # flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
